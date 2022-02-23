@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Discus Throw</string>
+
+    <string-array name="Course">
+        <item>Select Course:</item>
+        <item>ICT</item>
+        <item>ABM</item>
+        <item>BS Accountancy</item>
+        <item>BS Entrepreneurship</item>
+        <item>BS Information System</item>
+        <item>Default</item>
+
+    </string-array>
+
+</resources>

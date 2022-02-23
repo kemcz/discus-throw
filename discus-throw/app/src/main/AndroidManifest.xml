@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.discusthrow">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bgblue4"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/bgblue4"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Result"></activity>
+        <activity
+            android:name=".Listview"
+            android:parentActivityName=".Register" />
+        <activity
+            android:name=".Register"
+            android:parentActivityName=".Signup" />
+        <activity android:name=".Gamerules" />
+        <activity android:name=".Signup" />
+
+        <activity android:name=".Start"
+            android:parentActivityName=".Menu"/>
+        <activity android:name=".Menu" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
